@@ -1,0 +1,4 @@
+bin/mregextest
+include/mregex_types.h
+lib/libmregcomp.a
+lib/libmregexec.a
