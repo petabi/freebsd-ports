@@ -950,6 +950,7 @@
     SUBDIR += pimd
     SUBDIR += pimdd
     SUBDIR += pipsecd
+    SUBDIR += pius
     SUBDIR += pjsip
     SUBDIR += pjsip-extsrtp
     SUBDIR += pkt-gen
