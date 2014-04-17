@@ -1734,6 +1734,7 @@
     SUBDIR += mpatrol
     SUBDIR += mph
     SUBDIR += mq4cpp
+    SUBDIR += mregex
     SUBDIR += msgpack
     SUBDIR += msgpack-d
     SUBDIR += msgpuck
