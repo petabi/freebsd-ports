@@ -1,5 +1,5 @@
 PORTNAME=	mregex
-PORTVERSION=	0.11.2
+PORTVERSION=	0.11.3
 CATEGORIES=	devel
 MASTER_SITES=	# empty
 
@@ -10,5 +10,7 @@ MAKE_JOBS_UNSAFE=	yes
 
 USE_BZIP2=	yes
 USES=		cmake
+
+CFLAGS+=	-DNDEBUG
 
 .include <bsd.port.mk>
