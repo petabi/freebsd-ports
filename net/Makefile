@@ -1286,6 +1286,7 @@
     SUBDIR += sendsnpp
     SUBDIR += serveez
     SUBDIR += serviio
+    SUBDIR += session
     SUBDIR += sflowtool
     SUBDIR += shadowsocks-libev
     SUBDIR += shelldap
