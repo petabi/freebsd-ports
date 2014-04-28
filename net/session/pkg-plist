@@ -1,0 +1,3 @@
+bin/sessionmanager
+lib/pius/libsession.so
+@dirrmtry lib/pius
