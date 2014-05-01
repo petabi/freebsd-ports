@@ -1390,6 +1390,7 @@
     SUBDIR += traceroute
     SUBDIR += traff
     SUBDIR += traefik
+    SUBDIR += trafficgen
     SUBDIR += trafshow
     SUBDIR += trafshow3
     SUBDIR += tramp
