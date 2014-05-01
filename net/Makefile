@@ -1386,6 +1386,7 @@
     SUBDIR += torsocks
     SUBDIR += traceroute
     SUBDIR += traff
+    SUBDIR += trafficgen
     SUBDIR += trafshow
     SUBDIR += trafshow3
     SUBDIR += tramp
