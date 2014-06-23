@@ -1,7 +1,9 @@
 bin/pius
 lib/pius/README
-etc/pius-conf.lua
 @mode 555
 etc/rc.d/pius
 @mode
+@unexec if cmp -s %D/etc/pius-conf.lua.sample %D/etc/pius-conf.lua; then rm -f %D/etc/pius-conf.lua; fi
+etc/pius-conf.lua.sample
+@exec if [ ! -f %D/etc/pius-conf.lua ] ; then cp -p %D/%F %B/pius-conf.lua; fi
 @dirrmtry lib/pius
