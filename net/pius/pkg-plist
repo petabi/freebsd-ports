@@ -1,3 +1,7 @@
 bin/pius
 lib/pius/README
+etc/pius-conf.lua
+@mode 555
+etc/rc.d/pius
+@mode
 @dirrmtry lib/pius
