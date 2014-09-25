@@ -944,6 +944,7 @@
     SUBDIR += pimdd
     SUBDIR += pipsecd
     SUBDIR += pius
+    SUBDIR += pius-arp
     SUBDIR += pjsip
     SUBDIR += pjsip-extsrtp
     SUBDIR += pktanon
