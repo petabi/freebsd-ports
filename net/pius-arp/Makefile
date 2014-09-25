@@ -1,5 +1,5 @@
 PORTNAME=	pius-arp
-PORTVERSION=	1.0
+PORTVERSION=	1.0.1
 CATEGORIES=	net
 MASTER_SITES=	# empty
 
@@ -8,7 +8,5 @@ COMMENT=	ARP and NDP for PIUS
 
 USE_BZIP2=	yes
 USES=		cmake
-
-MAKE_JOBS_UNSAFE=	yes
 
 .include <bsd.port.mk>
