@@ -4745,6 +4745,7 @@
     SUBDIR += regexxer
     SUBDIR += relx
     SUBDIR += remake
+    SUBDIR += remerge
     SUBDIR += renpy
     SUBDIR += replay
     SUBDIR += rhtvision
