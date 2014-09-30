@@ -5048,6 +5048,7 @@
     SUBDIR += regexxer
     SUBDIR += relx
     SUBDIR += remake
+    SUBDIR += remerge
     SUBDIR += renpy
     SUBDIR += renpy6
     SUBDIR += replay
