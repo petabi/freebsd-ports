@@ -1270,6 +1270,7 @@
     SUBDIR += smm++
     SUBDIR += sngrep
     SUBDIR += sniffit
+    SUBDIR += sniffles
     SUBDIR += sntop
     SUBDIR += sobby
     SUBDIR += socat
