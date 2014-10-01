@@ -1,0 +1,5 @@
+Sniffles is a tool for creating packet captures that will test IDS
+that use fixed patterns or regular expressions for detecting
+suspicious behavior.
+
+WWW: http://petabi.com/
