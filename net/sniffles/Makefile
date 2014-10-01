@@ -1,10 +1,12 @@
 PORTNAME=	sniffles
-PORTVERSION=	1.0
+PORTVERSION=	1.0.2
 CATEGORIES=	net python
 MASTER_SITES=	# empty
 
-MAINTAINER=	msk@petabi.com
+MAINTAINER=	vvalgenti@petabi.com
 COMMENT=	Packet capture generator for IDS evaluation
+
+RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}remerge>=0.9:${PORTSDIR}/devel/py-remerge
 
 USE_PYTHON=		3
 USE_PYDISTUTILS=	yes
