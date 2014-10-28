@@ -1,5 +1,5 @@
 PORTNAME=	sniffles
-PORTVERSION=	1.1
+PORTVERSION=	1.2
 CATEGORIES=	net python
 MASTER_SITES=	# empty
 
