@@ -1,12 +1,11 @@
 PORTNAME=	session
-PORTVERSION=	0.11.2
+PORTVERSION=	0.12
 CATEGORIES=	net
 MASTER_SITES=	# empty
 
 MAINTAINER=	msk@petabi.com
 COMMENT=	Network session management module for PIUS
 
-LIB_DEPENDS=	libprotobuf-c.so.1:${PORTSDIR}/devel/protobuf-c
 LIB_DEPENDS+=	libboost_system.so.1.55.0:${PORTSDIR}/devel/boost-libs
 LIB_DEPENDS+=	libboost_program_options.so.1.55.0:${PORTSDIR}/devel/boost-libs
 
