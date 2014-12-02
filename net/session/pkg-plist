@@ -1,3 +1,4 @@
 bin/sessionmanager
+lib/libpius-session.a
 lib/pius/libsession.so
 @dirrmtry lib/pius
