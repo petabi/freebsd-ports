@@ -1,4 +1,10 @@
 bin/sessionmanager
+include/blacklist.h
+include/hash.h
+include/itvtree.h
+include/netcm.h
+include/session.h
+include/session_table.h
 lib/libpius-session.a
 lib/pius/libsession.so
 @dirrmtry lib/pius
