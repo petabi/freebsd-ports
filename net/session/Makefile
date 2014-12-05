@@ -1,12 +1,12 @@
 PORTNAME=	session
-PORTVERSION=	0.12.2
-PORTREVISION=	1
+PORTVERSION=	0.13
 CATEGORIES=	net
 MASTER_SITES=	# empty
 
 MAINTAINER=	msk@petabi.com
 COMMENT=	Network session management module for PIUS
 
+BUILD_DEPENDS+=	${LOCALBASE}/include/pius/netmap.h:${PORTSDIR}/net/pius-netmap
 LIB_DEPENDS+=	libboost_system.so.1.55.0:${PORTSDIR}/devel/boost-libs
 LIB_DEPENDS+=	libboost_program_options.so.1.55.0:${PORTSDIR}/devel/boost-libs
 
