@@ -1,6 +1,5 @@
-DISTNAME=	session-0.14
 PORTNAME=	pius-session
-PORTVERSION=	0.14
+PORTVERSION=	0.14.1
 CATEGORIES=	net
 MASTER_SITES=	# empty
 
