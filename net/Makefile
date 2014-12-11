@@ -932,6 +932,7 @@
     SUBDIR += pipsecd
     SUBDIR += pius
     SUBDIR += pius-arp
+    SUBDIR += pius-session
     SUBDIR += pjsip
     SUBDIR += pjsip-extsrtp
     SUBDIR += pktanon
@@ -1249,7 +1250,6 @@
     SUBDIR += sendsnpp
     SUBDIR += serveez
     SUBDIR += serviio
-    SUBDIR += session
     SUBDIR += sflowtool
     SUBDIR += shadowsocks-libev
     SUBDIR += shelldap
