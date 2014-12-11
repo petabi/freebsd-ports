@@ -952,6 +952,7 @@
     SUBDIR += pipsecd
     SUBDIR += pius
     SUBDIR += pius-arp
+    SUBDIR += pius-netmap
     SUBDIR += pius-session
     SUBDIR += pjsip
     SUBDIR += pjsip-extsrtp
