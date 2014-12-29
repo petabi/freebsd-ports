@@ -1,5 +1,5 @@
 bin/mregextest
-inlucde/mregcomp.h
+include/mregcomp.h
 include/mregex_types.h
 include/mregexec.h
 lib/libmregcomp.a
