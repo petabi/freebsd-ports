@@ -1,5 +1,5 @@
 PORTNAME=	mregex
-PORTVERSION=	1.2
+PORTVERSION=	1.2.1
 CATEGORIES=	devel
 MASTER_SITES=	# empty
 
@@ -8,7 +8,7 @@ COMMENT=	Regular expression matching library
 
 BUILD_DEPENDS+=	pius-carp>=0.1.1:${PORTSDIR}/net/pius-carp
 BUILD_DEPENDS+=	pius-netmap>=1.0:${PORTSDIR}/net/pius-netmap
-BUILD_DEPENDS+=	pius-session>=0.17.2:${PORTSDIR}/net/pius-session
+BUILD_DEPENDS+=	pius-session>=0.17.3:${PORTSDIR}/net/pius-session
 
 MAKE_JOBS_UNSAFE=	yes
 
