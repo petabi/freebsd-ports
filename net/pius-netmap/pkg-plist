@@ -1,2 +1,3 @@
 include/pius/netmap.h
+include/pius/task.h
 @dirrmtry include/pius
