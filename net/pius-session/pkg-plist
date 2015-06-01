@@ -1,7 +1,4 @@
 bin/sessionmanager
-include/blacklist.h
-include/hash.h
-include/itvtree.h
 include/netcm.h
 include/pius/session.h
 include/session_table.h
