@@ -6,8 +6,7 @@ MASTER_SITES=	# empty
 MAINTAINER=	vvalgenti@petabi.com
 COMMENT=	Packet capture generator for IDS evaluation
 
-USE_PYTHON=		3
-USE_PYDISTUTILS=	yes
-PYDISTUTILS_AUTOPLIST=	yes
+USES=		python:3
+USE_PYTHON=	autoplist distutils
 
 .include <bsd.port.mk>
