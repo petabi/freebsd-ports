@@ -7,7 +7,7 @@ MAINTAINER=	msk@petabi.com
 COMMENT=	Utilities to access netmap buffer
 
 BUILD_DEPENDS+=	atf>=0.21:${PORTSDIR}/devel/atf
-DEPENDS+=	boost-libs>=1.55:${PORTSDIR}/devel/boost-libs
+RUN_DEPENDS+=	${LOCALBASE}/include/boost/lockfree/spsc_queue.hpp:${PORTSDIR}/devel/boost-libs
 
 USE_BZIP2=	yes
 USES=		cmake
