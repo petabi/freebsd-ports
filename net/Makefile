@@ -1127,6 +1127,7 @@
     SUBDIR += rdist6
     SUBDIR += recvnet
     SUBDIR += redir
+    SUBDIR += regorus-sdk
     SUBDIR += relayd
     SUBDIR += remmina
     SUBDIR += remmina-plugin-gnome
