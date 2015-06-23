@@ -4743,6 +4743,7 @@
     SUBDIR += rebar3
     SUBDIR += regexx
     SUBDIR += regexxer
+    SUBDIR += rematch
     SUBDIR += relx
     SUBDIR += remake
     SUBDIR += remerge
