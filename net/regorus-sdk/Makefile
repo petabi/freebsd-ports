@@ -7,8 +7,10 @@ MAINTAINER=	kwanghyunk@petabi.com
 COMMENT=	Software development kit for REgorus
 
 BUILD_DEPENDS+=	atf>=0.21:${PORTSDIR}/devel/atf
-DEPENDS+=	rematch>=1.3:${PORTSDIR}/devel/rematch
-DEPENDS+=	pius-netmap>=1.3:${PORTSDIR}/net/pius-netmap
+BUILD_DEPENDS+=	rematch>=1.3:${PORTSDIR}/devel/rematch
+BUILD_DEPENDS+=	pius-netmap>=1.3:${PORTSDIR}/net/pius-netmap
+RUN_DEPENDS+=	rematch>=1.3:${PORTSDIR}/devel/rematch
+RUN_DEPENDS+=	pius-netmap>=1.3:${PORTSDIR}/net/pius-netmap
 
 USE_BZIP2=	yes
 USES=		cmake
