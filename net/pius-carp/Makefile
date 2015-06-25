@@ -1,5 +1,5 @@
 PORTNAME=	pius-carp
-PORTVERSION=	0.1.1
+PORTVERSION=	0.2
 CATEGORIES=	net
 MASTER_SITES=	# empty
 
@@ -7,6 +7,8 @@ MAINTAINER=	msk@petabi.com
 COMMENT=	CARP for PIUS
 
 BUILD_DEPENDS=	${LOCALBASE}/include/boost/detail/endian.hpp:${PORTSDIR}/devel/boost-libs
+BUILD_DEPENDS+=	pius-netmap>=1.4:${PORTSDIR}/net/pius-netmap
+DEPENDS+=	pius-netmap>=1.4:${PORTSDIR}/net/pius-netmap
 
 USE_BZIP2=	yes
 USES=		cmake
