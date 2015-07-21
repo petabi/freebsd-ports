@@ -1,4 +1,4 @@
 include/pius/arp.h
 include/pius/ndp.h
-lib/libpius-arp.a
-lib/libpius-ndp.a
+lib/libpius-arp.so
+lib/libpius-ndp.so
