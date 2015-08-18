@@ -4843,6 +4843,7 @@
     SUBDIR += py3-pytest
     SUBDIR += py3-python-magic
     SUBDIR += py3-pytz
+    SUBDIR += py3-sortedcontainers
     SUBDIR += py3-threema-msgapi
     SUBDIR += py3-vcversioner
     SUBDIR += py3-xdg
