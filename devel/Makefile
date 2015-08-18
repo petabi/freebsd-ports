@@ -5012,6 +5012,7 @@
     SUBDIR += py3-setuptools_scm
     SUBDIR += py3-simplejson
     SUBDIR += py3-six
+    SUBDIR += py3-sortedcontainers
     SUBDIR += py3-tabulate
     SUBDIR += py3-threema-msgapi
     SUBDIR += py3-tox
