@@ -4937,6 +4937,7 @@
     SUBDIR += py3-setproctitle
     SUBDIR += py3-simplejson
     SUBDIR += py3-six
+    SUBDIR += py3-sortedcontainers
     SUBDIR += py3-threema-msgapi
     SUBDIR += py3-vcversioner
     SUBDIR += py3-wcwidth
