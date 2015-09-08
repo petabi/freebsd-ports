@@ -1,3 +1,4 @@
 include/pius/netmap.h
+include/pius/queue.h
 include/pius/task.h
 @dirrmtry include/pius
