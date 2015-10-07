@@ -10,8 +10,7 @@ BUILD_DEPENDS=	${LOCALBASE}/include/boost/detail/endian.hpp:${PORTSDIR}/devel/bo
 BUILD_DEPENDS+=	pius-netmap>=1.4:${PORTSDIR}/net/pius-netmap
 DEPENDS+=	pius-netmap>=1.4:${PORTSDIR}/net/pius-netmap
 
-USE_BZIP2=	yes
-USES=		cmake
+USES=		cmake tar:bzip2
 
 CFLAGS+=	-DNDEBUG
 

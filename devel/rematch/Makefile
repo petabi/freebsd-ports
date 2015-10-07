@@ -12,8 +12,7 @@ BUILD_DEPENDS+=	pius-session>=0.17.3:${PORTSDIR}/net/pius-session
 
 MAKE_JOBS_UNSAFE=	yes
 
-USE_BZIP2=	yes
-USES=		cmake
+USES=		cmake tar:bzip2
 
 CFLAGS+=	-DNDEBUG
 
