@@ -9,8 +9,7 @@ COMMENT=	ARP and NDP for PIUS
 
 BUILD_DEPENDS=	${LOCALBASE}/include/boost/detail/endian.hpp:${PORTSDIR}/devel/boost-libs
 
-USE_BZIP2=	yes
-USES=		cmake
+USES=		cmake tar:bzip2
 
 CMAKE_ARGS+=	-DBUILD_SHARED_LIBS=ON
 

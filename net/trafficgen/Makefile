@@ -9,8 +9,7 @@ COMMENT=	Traffic generator
 LIB_DEPENDS=	liblua-5.2.so:${PORTSDIR}/lang/lua52
 LIB_DEPENDS+=	libboost_system.so.1.55.0:${PORTSDIR}/devel/boost-libs
 
-USE_BZIP2=	yes
-USES=		cmake
+USES=		cmake tar:bzip2
 
 CFLAGS+=	-DNDEBUG
 

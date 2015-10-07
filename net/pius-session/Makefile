@@ -11,8 +11,7 @@ BUILD_DEPENDS+=	pius-carp>=0.1.1:${PORTSDIR}/net/pius-carp
 LIB_DEPENDS+=	libboost_system.so.1.55.0:${PORTSDIR}/devel/boost-libs
 LIB_DEPENDS+=	libboost_program_options.so.1.55.0:${PORTSDIR}/devel/boost-libs
 
-USE_BZIP2=	yes
-USES=		cmake
+USES=		cmake tar:bzip2
 
 CFLAGS+=	-DNDEBUG
 

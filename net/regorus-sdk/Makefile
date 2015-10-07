@@ -12,8 +12,7 @@ BUILD_DEPENDS+=	pius-netmap>=1.3:${PORTSDIR}/net/pius-netmap
 RUN_DEPENDS+=	rematch>=1.3:${PORTSDIR}/devel/rematch
 RUN_DEPENDS+=	pius-netmap>=1.3:${PORTSDIR}/net/pius-netmap
 
-USE_BZIP2=	yes
-USES=		cmake
+USES=		cmake tar:bzip2
 
 CFLAGS+=	-DNDEBUG
 
