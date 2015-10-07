@@ -1,8 +1,0 @@
-bin/mregextest
-include/mregcomp.h
-include/mregex_types.h
-include/mregexec.h
-lib/libmregcomp.a
-lib/libmregexec.a
-lib/pius/libmregex.so
-@dirrmtry lib/pius
