@@ -29,6 +29,6 @@ PLIST_FILES=	include/SQLiteCpp/Assertion.h \
 do-install:
 	${MKDIR} ${STAGEDIR}${PREFIX}/include/SQLiteCpp
 	${INSTALL_DATA} ${WRKSRC}/include/SQLiteCpp/* ${STAGEDIR}${PREFIX}/include/SQLiteCpp/
-	${INSTALL_LIB} ${WRKSRC}/libSQLiteCpp.a ${STAGEDIR}${PREFIX}/lib/
+	${INSTALL_DATA} ${WRKSRC}/libSQLiteCpp.a ${STAGEDIR}${PREFIX}/lib/
 
 .include <bsd.port.mk>
