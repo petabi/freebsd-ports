@@ -1,0 +1,12 @@
+--- CMakeLists.txt.orig	2015-09-09 10:02:34.000000000 -0700
++++ CMakeLists.txt	2016-01-21 11:46:39.542452000 -0800
+@@ -26,6 +26,9 @@
+     endif (APPLE)
+ endif (WIN32)
+ 
++find_path(SQLITE3_INCLUDE_DIR sqlite3.h)
++include_directories(${SQLITE3_INCLUDE_DIR})
++
+ # then Compiler/IDE differences:
+ if (MSVC)
+     set(CPPLINT_ARG_OUTPUT      "--output=vs7")
