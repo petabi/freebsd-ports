@@ -140,6 +140,7 @@
     SUBDIR += atlas-devel
     SUBDIR += atlassian-plugin-sdk
     SUBDIR += aunit
+    SUBDIR += auto-opt
     SUBDIR += autobook
     SUBDIR += autoconf
     SUBDIR += autoconf-archive
