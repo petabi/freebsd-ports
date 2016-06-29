@@ -117,6 +117,7 @@
     SUBDIR += atlas
     SUBDIR += atlas-devel
     SUBDIR += atlassian-plugin-sdk
+    SUBDIR += auto-opt
     SUBDIR += autobook
     SUBDIR += autoconf
     SUBDIR += autoconf-archive
