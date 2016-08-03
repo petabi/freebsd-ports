@@ -1,5 +1,5 @@
---- tools/build/v2/tools/clang-linux.jam.orig	2011-06-06 22:36:21.000000000 +0200
-+++ tools/build/v2/tools/clang-linux.jam	2014-02-09 22:19:34.000000000 +0100
+--- tools/build/src/tools/clang-linux.jam.orig	2011-06-06 22:36:21.000000000 +0200
++++ tools/build/src/tools/clang-linux.jam	2014-02-09 22:19:34.000000000 +0100
 @@ -31,7 +31,7 @@
  generators.override clang-linux.compile.c++.pch : pch.default-cpp-pch-generator ;
   
