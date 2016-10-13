@@ -2,6 +2,7 @@ bin/rematchtest
 include/rematch/compile.h
 include/rematch/execute.h
 include/rematch/rematch.h
+include/rematch/REmake_web.h
 lib/libremake.so
 lib/librematchcomp.a
 lib/librematchexec.a
