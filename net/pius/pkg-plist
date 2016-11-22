@@ -1,4 +1,6 @@
 bin/pius
+include/pius/pius_c_api.h
+lib/pius/libpius.so
 lib/pius/README
 @mode 555
 etc/rc.d/pius
