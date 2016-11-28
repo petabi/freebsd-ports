@@ -1,2 +1,2 @@
-include/petabi-ip-tools/lpm.h
-lib/petabi-ip-tools/liblpm.so
+include/petabi/ip-tools/lpm.h
+lib/liblpm.so
