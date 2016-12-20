@@ -1,5 +1,5 @@
-PORTNAME=	petabi-ip-tools
-PORTVERSION=	0.1.2
+PORTNAME=	petabi-ip_tools
+PORTVERSION=	0.1.3
 CATEGORIES=	net
 MASTER_SITES=	# empty
 
