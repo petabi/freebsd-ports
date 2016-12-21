@@ -1,3 +1,4 @@
+bin/batchtest
 bin/sessionmanager
 include/netcm.h
 include/pius/session.h
