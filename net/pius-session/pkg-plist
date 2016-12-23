@@ -1,6 +1,6 @@
 bin/batchtest
 bin/sessionmanager
 include/pius/session.h
-lib/libpius-session.a
+lib/libpius-session.so
 lib/pius/libsession.so
 @dirrmtry lib/pius
