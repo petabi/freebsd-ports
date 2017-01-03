@@ -1,5 +1,5 @@
 PORTNAME=	pius-session
-PORTVERSION=	0.20.1
+PORTVERSION=	0.21.0
 CATEGORIES=	net
 MASTER_SITES=	# empty
 
@@ -11,6 +11,7 @@ BUILD_DEPENDS+=	pius-carp>=0.4.4:${PORTSDIR}/net/pius-carp
 BUILD_DEPENDS+=	petabi-ip_tools>=0.1.3:${PORTSDIR}/net/petabi-ip_tools
 LIB_DEPENDS+=	libboost_program_options.so:devel/boost-libs
 LIB_DEPENDS+=	libboost_system.so:devel/boost-libs
+LIB_DEPENDS+=	liblpm.so:net/petabi-ip_tools
 
 USES=		cmake tar:bzip2
 
