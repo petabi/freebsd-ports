@@ -1,12 +1,12 @@
 PORTNAME=	pius-session
-PORTVERSION=	0.21.0
+PORTVERSION=	0.21.1
 CATEGORIES=	net
 MASTER_SITES=	# empty
 
 MAINTAINER=	msk@petabi.com
 COMMENT=	Network session management module for PIUS
 
-BUILD_DEPENDS+=	pius-netmap>=1.7.0:${PORTSDIR}/net/pius-netmap
+BUILD_DEPENDS+=	pius-netmap>=2.0.0:${PORTSDIR}/net/pius-netmap
 BUILD_DEPENDS+=	pius-carp>=0.4.4:${PORTSDIR}/net/pius-carp
 BUILD_DEPENDS+=	petabi-ip_tools>=0.1.3:${PORTSDIR}/net/petabi-ip_tools
 LIB_DEPENDS+=	libboost_program_options.so:devel/boost-libs
