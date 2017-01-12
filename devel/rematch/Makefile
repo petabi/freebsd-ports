@@ -1,5 +1,6 @@
 PORTNAME=	rematch
 PORTVERSION=	1.6
+PORTREVISION=	1
 CATEGORIES=	devel
 MASTER_SITES=	# empty
 
@@ -8,7 +9,7 @@ COMMENT=	Regular expression matching library
 
 BUILD_DEPENDS+=	llvm38>=3.8.0:devel/llvm38
 BUILD_DEPENDS+=	pius-carp>=0.1.1:net/pius-carp
-BUILD_DEPENDS+=	pius-netmap>=1.0:net/pius-netmap
+BUILD_DEPENDS+=	pius-netmap>=2.0:net/pius-netmap
 BUILD_DEPENDS+=	pius-session>=0.18.0:net/pius-session
 LIB_DEPENDS+=	libboost_filesystem.so:devel/boost-libs
 LIB_DEPENDS+=	libboost_program_options.so:devel/boost-libs
