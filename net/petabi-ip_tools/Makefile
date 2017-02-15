@@ -1,12 +1,13 @@
 PORTNAME=	petabi-ip_tools
 PORTVERSION=	0.1.3
+PORTREVISION=	1
 CATEGORIES=	net
 MASTER_SITES=	# empty
 
 MAINTAINER=	connor@petabi.com
 COMMENT=	Petabi development IP Tools
 
-LIB_DEPENDS+=	libboost_system.so.1.60.0:${PORTSDIR}/devel/boost-libs
+LIB_DEPENDS+=	libboost_system.so.1.63.0:${PORTSDIR}/devel/boost-libs
 
 USES=		cmake tar:bzip2
 
