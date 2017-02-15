@@ -1,6 +1,6 @@
 PORTNAME=	pius
 PORTVERSION=	0.15
-PORTREVISION=	1
+PORTREVISION=	2
 CATEGORIES=	net
 MASTER_SITES=	# empty
 
@@ -14,7 +14,7 @@ BUILD_DEPENDS+=	pius-session>=0.14.2:${PORTSDIR}/net/pius-session
 BUILD_DEPENDS+=	rematch>=1.3:${PORTSDIR}/devel/rematch
 BUILD_DEPENDS+=	regorus-sdk>=0.2:${PORTSDIR}/net/regorus-sdk
 BUILD_DEPENDS+=	thrift>=0.9.3:${PORTSDIR}/devel/thrift
-LIB_DEPENDS=	libboost_system.so.1.60.0:${PORTSDIR}/devel/boost-libs
+LIB_DEPENDS=	libboost_system.so.1.63.0:${PORTSDIR}/devel/boost-libs
 LIB_DEPENDS+=	liblua-5.2.so:${PORTSDIR}/lang/lua52
 LIB_DEPENDS+=   libpius-carp.so:${PORTSDIR}/net/pius-carp
 LIB_DEPENDS+=   libthrift-0.9.3.so:${PORTSDIR}/devel/thrift-cpp
