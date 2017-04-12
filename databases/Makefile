@@ -166,6 +166,7 @@
     SUBDIR += linux-oracle-instantclient-sdk
     SUBDIR += linux-oracle-instantclient-sqlplus
     SUBDIR += liquibase
+    SUBDIR += litesql
     SUBDIR += lmdb
     SUBDIR += lua-lsqlite3
     SUBDIR += lua-xapian
