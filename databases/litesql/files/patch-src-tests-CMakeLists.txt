@@ -1,0 +1,10 @@
+--- src/tests/CMakeLists.txt.orig	2017-04-11 21:48:49.174244000 -0700
++++ src/tests/CMakeLists.txt	2017-04-11 21:50:05.246017000 -0700
+@@ -10,6 +10,7 @@
+ target_link_libraries (test-datetime litesql litesql-util)
+ add_test(test-datetime ${EXECUTABLE_OUTPUT_PATH}/test-datetime datetime)
+ 
++link_directories(${SQLITE3_LIBRARY_DIRS})
+ add_executable(test-update-table test-update-table.cpp)
+ target_link_libraries (test-update-table litesql litesql-util ${BACKEND_LIBRARIES})
+ add_test(test-update-table ${EXECUTABLE_OUTPUT_PATH}/test-update-table update-table)
