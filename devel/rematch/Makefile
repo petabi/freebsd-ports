@@ -1,12 +1,12 @@
 PORTNAME=	rematch
-PORTVERSION=	1.7
+PORTVERSION=	1.8
 CATEGORIES=	devel
 MASTER_SITES=	# empty
 
 MAINTAINER=	msk@petabi.com
 COMMENT=	Regular expression matching library
 
-BUILD_DEPENDS+=	llvm38>=3.8.0:devel/llvm38
+BUILD_DEPENDS+=	llvm40>=4.0.0.r4:devel/llvm40
 BUILD_DEPENDS+=	pius-carp>=0.1.1:net/pius-carp
 BUILD_DEPENDS+=	pius-netmap>=2.0:net/pius-netmap
 BUILD_DEPENDS+=	pius-session>=0.18.0:net/pius-session

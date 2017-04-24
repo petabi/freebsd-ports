@@ -8,4 +8,4 @@ lib/libremake.so
 lib/librematchcomp.a
 lib/librematchexec.a
 lib/pius/librematch.so
-@dirrmtry lib/pius
+@dir lib/pius
