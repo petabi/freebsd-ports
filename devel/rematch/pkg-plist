@@ -1,3 +1,4 @@
+bin/rematch2
 bin/rematchc
 bin/rematchtest
 include/rematch/compile.h
