@@ -3,3 +3,4 @@ include/petabi/ip_tools/lpm.h
 include/petabi/ip_tools/Pclass.h
 include/petabi/ip_tools/Rule.h
 lib/liblpm.so
+lib/libpclass.so

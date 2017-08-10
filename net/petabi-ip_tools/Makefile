@@ -1,5 +1,6 @@
 PORTNAME=	petabi-ip_tools
 PORTVERSION=	0.2
+PORTREVISION=	2
 CATEGORIES=	net
 MASTER_SITES=	# empty
 
