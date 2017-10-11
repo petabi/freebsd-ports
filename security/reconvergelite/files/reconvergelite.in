@@ -1,0 +1,55 @@
+#!/bin/sh
+
+# PROVIDE: reconvergelite
+# REQUIRE: LOGIN
+# KEYWORD: shutdown
+
+#
+# Configuration settings for reconvergelite in /etc/rc.conf:
+#
+# reconvergelite_enable (bool):
+#   Set to "NO" by default.
+#   Set it to "YES" to enable reconvergelite
+
+. /etc/rc.subr
+
+name="reconvergelite"
+rcvar="${name}_enable"
+
+: ${reconvergelite_enable:="NO"}
+
+reconvergelite_chdir="/usr/home/reconvergelite/"
+
+pidfile="/var/run/${name}.pid"
+command="%%PREFIX%%/bin/exec_${name}"
+command_args="lewiston_detectors.json 60"
+
+start_cmd="${name}_start"
+stop_cmd="${name}_stop"
+reload_cmd="${name}_reload"
+
+reconvergelite_start()
+{
+	if [ -s ${pidfile} ]; then
+		kill -2 `cat "${pidfile}"`
+		sleep 1
+	fi
+	sudo ${command} ${command_args}
+}
+
+reconvergelite_stop()
+{
+	if [ -s ${pidfile} ]; then
+                kill -2 `cat "${pidfile}"`
+                sleep 1
+        fi
+}
+
+reconvergelite_reload()
+{
+        reconvergelite_stop()
+        reconvergelite_start()
+}
+
+load_rc_config $name
+run_rc_command "$1"
