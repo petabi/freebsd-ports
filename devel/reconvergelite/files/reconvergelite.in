@@ -33,7 +33,7 @@ reconvergelite_start()
 	if [ -s ${pidfile} ]; then
 		kill -2 `cat "${pidfile}"`
 		sleep 1
-	fi	
+	fi
 	sudo ${command} ${command_args}
 }
 
