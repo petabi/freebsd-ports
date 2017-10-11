@@ -1,0 +1,3 @@
+bin/exec_reconvergelite
+include/reconverge/coreUT.h
+lib/libreconverge_lite.a
