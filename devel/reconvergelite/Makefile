@@ -1,5 +1,5 @@
 PORTNAME=	reconvergelite
-PORTVERSION=	0.2
+PORTVERSION=	0.3
 CATEGORIES=	devel
 MASTER_SITES=	# empty
 
