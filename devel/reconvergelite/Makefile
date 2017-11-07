@@ -11,7 +11,7 @@ BUILD_DEPENDS+= thrift>=0.9.3:devel/thrift
 LIB_DEPENDS=    libboost_system.so:devel/boost-libs
 LIB_DEPENDS+=   liblua-5.2.so:lang/lua52
 LIB_DEPENDS+=   libthrift-0.9.3.so:devel/thrift-cpp
-LIB_DEPENDS+=   libboost_python.so.1.63.0:devel/boost-python-libs
+LIB_DEPENDS+=   libboost_python.so:devel/boost-python-libs
 
 MAKE_JOBS_UNSAFE=	yes
 
