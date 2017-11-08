@@ -13,9 +13,7 @@ COMMENT=	HTTP/2-based RPC framework
 LICENSE=	BSD3CLAUSE
 
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}six>1:devel/py-six \
-		${PYTHON_PKGNAMEPREFIX}enum34>1:devel/py-enum34 \
-		${PYTHON_PKGNAMEPREFIX}protobuf>=3:devel/py-protobuf \
-		${PYTHON_PKGNAMEPREFIX}futures>=3:devel/py-futures
+		${PYTHON_PKGNAMEPREFIX}protobuf>=3:devel/py-protobuf
 LIB_DEPENDS=	libcares.so:dns/c-ares
 
 BROKEN_aarch64=		fails to compile: cpu-aarch64-linux.c: fatal error: 'sys/auxv.h' file not found
